@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.scss"
+	],
+	"sourcesContent": [
+		"body {\n    box-sizing: border-box;\n    margin: 0 auto;\n    text-align: center;\n    font-family: 'Quicksand', sans-serif;\n  }\n  .container {\n    max-width: 800px;\n    margin: 0 auto;\n    background-color: rgb(131, 196, 94);\n  }\n.btn {\npadding: 10px;\nmargin: 5px;\n}\n  "
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,uBAAuB,GACrC;;AACD,AAAA,UAAU,CAAC;EACT,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,MAAM;EACd,gBAAgB,EAAE,OAAiB,GACpC;;AACH,AAAA,IAAI,CAAC;EACL,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,GAAG,GACV"
+}

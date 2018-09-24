@@ -19,18 +19,20 @@
     "watch:sassprefixer": "onchange -d 100 sass/style.css -- run-npm-all sassprefixer:*",
     "sassprefixer:sass": "node-sass --output-style expanded --source-map true -o css sass",
     "sassprefixer:autoprefixer": "autoprefixer-cli css/style.css",
-    "watch:browsersync": "browser-sync start --server --files 'css/*.css' '*.html' 'js/script.js' "
+    "watch:browsersync": "browser-sync start --server --files 'css/*.css' '*.html' 'js/script.js' ",
+
+    "new:watch": "node-sass --watch --recursive --output css --source-map true --source-map-contents sass"
   },
   "repository": {
     "type": "git",
-    //"url": "git+https://github.com/bluffend/Kodilla-13.3.git"
+    "url": "git+https://github.com/bluffend/kodilla-14.2.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    //"url": "https://github.com/bluffend/Kodilla-13.3/issues"
+    "url": "https://github.com/bluffend/kodilla-14.2/issues"
   },
-  //"homepage": "https://github.com/bluffend/Kodilla-13.3#readme",
+  "homepage": "https://github.com/bluffend/Kodilla-14.2#readme",
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.24.6",
