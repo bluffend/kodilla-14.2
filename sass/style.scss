@@ -1,0 +1,120 @@
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .container {
+    width: 50%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+button {
+    display: inline-block;
+    vertical-align: middle;
+    width: 150px;
+    height: 50px;
+    border: none;
+    padding: 10px;
+    margin: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    border-radius: 20px;
+    outline: none;
+    background-color: rgb(37, 223, 61);
+    transition: 0.5s;
+}
+ .player-buttons:hover {
+    transform:scale(1.1);
+    background-color: rgb(78, 101, 230);
+}
+  
+.output-div {
+    margin: 0 auto;
+    width: 100%;
+    display: inline-block;
+    max-width: 600px;
+    max-height: 70px;
+}
+  
+.results-box {
+    display: inline-block;
+    size: 100%;
+    max-width: 450px;
+    max-height:460px;
+    vertical-align: middle; 
+    text-align: middle;
+    border: none;
+    padding: 10px 10px 20px 10px;
+    margin: 0px 20px;  
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    border-radius: 20px;
+    outline: none;
+    background-color: lightgrey;
+}
+
+.new-game-button {
+    background-color: rgb(185, 20, 177);
+    color: white;
+}
+.new-game-button:hover {
+  transform:scale(1.2);
+  background-color: rgb(250, 35, 27);
+}
+
+/* CSS for modal */
+.overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+  }
+  .overlay.show {
+	display: block;
+  }
+  
+  .modal {
+	display: none;
+	background: #fff;
+	width: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%, -50%, 0);
+			transform: translate3d(-50%, -50%, 0);
+  }
+  .modal.show {
+	display: block;
+  }
+  .modal .close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 5px;
+	color: #000;
+	text-decoration: none;
+  }
+  .modal header {
+	font-size: 20px;
+	line-height: 30px;
+	min-height: 30px;
+	font-weight: bold;
+	padding: 0 30px;
+  }
+  .modal .content {
+	min-height: 30px;
+	padding: 5px 30px;
+  }
